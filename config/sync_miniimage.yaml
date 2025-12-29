@@ -1,0 +1,60 @@
+
+name: Run Sync Federated Engine
+
+dataset_path: ./Data/miniImageNet/
+dataset: miniImageNet
+
+model:
+  arch: protonet+resnet18
+
+param:
+  seed: 1402
+  rounds: 4
+  n_classes: 5
+  alpha: 0.1
+  epochs: 20
+  batch_size: 1
+  lr: 0.001
+  n_support: 1
+  n_query: 5
+  n_episodes: 100
+  img_size: 150
+
+server:
+  device: cpu
+
+client1:
+  device: gpu
+
+client2:
+  device: gpu
+
+
+client3:
+  device: gpu
+
+
+client4:
+  device: gpu
+
+
+client5:
+  device: gpu
+
+client6:
+  device: gpu
+
+client7:
+  device: gpu
+
+
+client8:
+  device: gpu
+
+
+client9:
+  device: gpu
+
+
+client10:
+  device: gpu
