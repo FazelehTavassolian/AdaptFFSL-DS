@@ -39,7 +39,7 @@ The dataset is hosted separately and is not included in this repository.
 1. Download the dataset from:
    - https://drive.google.com/drive/folders/1HFBK0DwNzx32WUPz6yMfkKu8Y3NlHaSA
 2. Extract the downloaded archive.
-3. Move the extracted dataset to the `data/` directory.
+3. Move the extracted dataset to the `Data/` directory.
 
 ## Initialize Clients
 python train_lightFFSLDS_DDQN.py --make_dataset
